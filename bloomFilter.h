@@ -28,9 +28,6 @@ class BloomFilter{
 
     //Testing
     void print();
-    
-    //Dumps information of the entire filter. For debugging.
-    void dumpAll();
 
     //Family of hash functions
     //The index specifies which hash function should be used

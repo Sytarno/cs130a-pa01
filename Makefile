@@ -12,5 +12,5 @@ tests: ${BINARIES}
 clean: 
 	/bin/rm -f ${BINARIES} *.o PA1.out
 
-testBloomFilter: testBloomFilter.o bloomFilter.o hashTable.o 
-	${CXX} $^ -o PA1.out ${CXXFLAGS} 
+testBloomFilter: testBloomFilter.o bloomFilter.o hashTable.o
+	${CXX} ${CXXFLAGS} $^ -o PA1.out 

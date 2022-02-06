@@ -15,7 +15,7 @@ namespace api{
     // m := expected number of strings to be inserted
     // c := sclae factor of bloom filter size
     int bloomFilterSize(float p, int m, int c){
-        int n = -((m * log(p)) / pow(log(2), 2));
+        int n = ceil(-((m * log(p)) / pow(log(2), 2)));
         return n*c;
     }
 
@@ -26,24 +26,22 @@ namespace api{
     //m := expected number of strings to be inserted
     //d := scale factor of bloom filter size
     int numHashFunctions(int n, int m, int d){
-        int k = static_cast<float>(n) / m * log(2);
+        int k = ceil(static_cast<float>(n) / m * log(2));
         return k*d;
     }
 
     //String to integer conversion.
     //Needed for running the elements on the above hash functions.
-    extern unsigned int strToInt(std::string element){
-        float c = 3; 
-        //3 seems to result in a decent variance, 
-        //and also minimizes the value when n gets large for 
-        //pow(c, n)
+    unsigned int strToInt(std::string element){
+        //float c = 3;
+        float c = 9.4; //completely random choice here, no explanation.
 
         bool overflow = false;
         unsigned long shift = -1;
 
         unsigned int x = 0;
         for(size_t i = 0; i < element.length(); i++){
-            unsigned int val = element[i] * pow(c, i);
+            unsigned short val = element[i] * pow(c, i);
             //check for overflow
             if((x + val) < x){
                 overflow = true;
@@ -63,7 +61,7 @@ namespace api{
         if(overflow){
             x = 0;
             for(size_t i = shift; i < element.length(); i++){
-                unsigned int val = static_cast<int>(element[i]) * pow(c, i);
+                unsigned short val = static_cast<int>(element[i]) * pow(c, i);
                 x += val;
             }
         }
