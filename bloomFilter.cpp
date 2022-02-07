@@ -1,30 +1,30 @@
 #define _GLIBCXX_USE_CXX11_ABI 0
 
+#include "api.h"
+#include "bloomFilter.h"
+
 #include <sstream>
 #include <math.h>
 #include <climits>
-
-#include "bloomFilter.h"
-#include "api.hpp"
+#include <iostream>
 
 BloomFilter::BloomFilter(float p, int m, float c, float d){
-        this->size = api::bloomFilterSize(p, m, c);
-        this->numHash = api::numHashFunctions(this->size, m, d);
+        this->size = bloomFilterSize(p, m, c);
+        this->numHash = numHashFunctions(this->size, m, d);
 
         this->filter = new bool[this->size]();
 }
 
 void BloomFilter::insert(std::string element){
-        unsigned int x = api::strToInt(element);
+        unsigned int x = strToInt(element);
         for(int i = 0; i < numHash; i++){
                 int n = hash(x, i);
-                //std::cout << element << " x & n : " << x << " " << n << std::endl;
                 this->filter[n] = true;
         }
 }      
 
 bool BloomFilter::find(std::string element){
-        unsigned int x = api::strToInt(element);
+        unsigned int x = strToInt(element);
         for(int i = 0; i < numHash; i++){
                 int n = hash(x, i);
                 if(!this->filter[n]){

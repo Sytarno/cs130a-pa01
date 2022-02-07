@@ -2,6 +2,7 @@
 
 #include "bloomFilter.h"
 #include "hashTable.h"
+#include "api.h"
 
 #include <iostream>
 #include <fstream>
@@ -25,13 +26,19 @@ int main(int argc, char** argv){
     }
     setup_file.close();
     
+    int num_phase = 10;
+    int insertions = 1000;
+    int searches = 100;
+    int deletes = 100;
+
     float p = stof(ins[0]);
     int m = stoi(ins[1]), c = stoi(ins[2]), d = stoi(ins[3]);
+    int q = nextPrime(deletes*num_phase);
     cout << "Experiment for values of:" << endl;
     cout << "p = " << p << endl;
     cout << "c = " << c << endl;
     cout << "d = " << d << endl;
-    //cout << "q = " << q << endl;
+    cout << "q = " << q << endl;
     
     //Prep files
     ifstream input_file; 
@@ -43,11 +50,8 @@ int main(int argc, char** argv){
     ifstream remove;
     remove.open(argv[5]);
 
-    int num_phase = 10;
-    int insertions = 1000;
-    int searches = 100;
-
     BloomFilter bloom_filter(p, m, c, d);
+    HashTable htable(q);
 
     int total_false_neg = 0;
     int total_false_pos = 0;
@@ -58,6 +62,12 @@ int main(int argc, char** argv){
             string input;
             input_file >> input;
             bloom_filter.insert(input);
+        }
+
+        for(int i = 0; i < deletes; i++){
+            string removed;
+            remove >> removed;
+            htable.insert(removed);
         }
 
         int false_neg = 0;
@@ -105,7 +115,7 @@ int main(int argc, char** argv){
     fail.close();
     remove.close();
 
-    bloom_filter.print();
+    //bloom_filter.print();
 
     cout << "Total over "  << num_phase << " phase(s): " << endl;
     cout << "Number of false negatives:" << endl;

@@ -3,21 +3,23 @@
 
 #include <string>
 
+//Linked List Node
+struct Node{
+    unsigned int data;
+    Node* next;
+};
+
 class HashTable{
-    //Linked List Node
-    struct Node{
-        int data;
-        Node* next;
-    };
+    public:
 
     int q;
-    Node* table;
+    Node** table;
 
     //Separate Chaining Hash Table
     //This will be used for your removed elements of the bloom filter.
     // q := the size of the hash table (prime number)
-    public:
     HashTable(int q);
+    ~HashTable();
 
     //Insert a string into the hash table.
     void insert(std::string element);
