@@ -10,8 +10,8 @@
 //Scale the computed size by 'c' (for experimental purposes).
 // p := probability of a false positive
 // m := expected number of strings to be inserted
-// c := sclae factor of bloom filter size
-int bloomFilterSize(float p, int m, int c);
+// c := scale factor of bloom filter size
+int bloomFilterSize(float p, int m, float c);
 
 //Compute the number of hash functiosn to use based on the bloom filter size,
 //and the expected number of strings to be inserted.

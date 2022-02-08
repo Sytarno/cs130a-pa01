@@ -1,0 +1,443 @@
+Experiment for values of:
+p = 0.2
+c = 1
+d = 5
+q = 1009
+Phase <1>
+Number of false negatives:
+0
+Number of false positives:
+0
+Probability of false positives:
+0
+False Positive Elements:
+
+Phase <2>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: nonchalant
+2: lobster
+3: flawless
+
+Phase <3>
+Number of false negatives:
+0
+Number of false positives:
+2
+Probability of false positives:
+0.02
+False Positive Elements:
+1: concentrate
+2: appliance
+
+Phase <4>
+Number of false negatives:
+0
+Number of false positives:
+6
+Probability of false positives:
+0.06
+False Positive Elements:
+1: moan
+2: arm
+3: fantastic
+4: young
+5: daughter
+6: alcoholic
+
+Phase <5>
+Number of false negatives:
+0
+Number of false positives:
+22
+Probability of false positives:
+0.22
+False Positive Elements:
+1: nine
+2: arithmetic
+3: rate
+4: interesting
+5: riddle
+6: form
+7: bermuda
+8: rambunctious
+9: able
+10: warn
+11: complete
+12: tidy
+13: title
+14: glorious
+15: desert
+16: supreme
+17: oafish
+18: silk
+19: tranquil
+20: front
+21: left
+22: fascinated
+
+Phase <6>
+Number of false negatives:
+0
+Number of false positives:
+33
+Probability of false positives:
+0.33
+False Positive Elements:
+1: spittle
+2: bawdy
+3: purpose
+4: parallel
+5: bambi
+6: poor
+7: wholesale
+8: crazy
+9: cheat
+10: obsequious
+11: itch
+12: reject
+13: puny
+14: cabbage
+15: valuable
+16: temper
+17: ripe
+18: efficient
+19: gruesome
+20: shock
+21: jellyfish
+22: trick
+23: sticky
+24: yarn
+25: crawl
+26: stint
+27: ugliest
+28: lame
+29: skate
+30: bustling
+31: nebulous
+32: grieving
+33: silver
+
+Phase <7>
+Number of false negatives:
+0
+Number of false positives:
+58
+Probability of false positives:
+0.58
+False Positive Elements:
+1: carry
+2: entertaining
+3: false
+4: pan
+5: daily
+6: science
+7: grate
+8: answer
+9: probability
+10: protect
+11: quarter
+12: queue
+13: successful
+14: fairies
+15: misty
+16: madly
+17: moldy
+18: talented
+19: stop
+20: aquatic
+21: reflect
+22: ball
+23: ruthless
+24: liquid
+25: premium
+26: spiky
+27: terrible
+28: eatery
+29: shiver
+30: label
+31: accidental
+32: horrible
+33: fasten
+34: extra-small
+35: mushy
+36: scene
+37: grey
+38: belong
+39: innocent
+40: wash
+41: airplane
+42: pastoral
+43: abashed
+44: stupid
+45: tablet
+46: smooth
+47: tail
+48: plant
+49: defiant
+50: kick
+51: immense
+52: assorted
+53: treat
+54: soak
+55: synthesizer
+56: blue-eyed
+57: bright
+58: jam
+
+Phase <8>
+Number of false negatives:
+0
+Number of false positives:
+63
+Probability of false positives:
+0.63
+False Positive Elements:
+1: evasive
+2: queen
+3: bedroom
+4: afternoon
+5: unique
+6: tray
+7: attraction
+8: distinct
+9: feeble
+10: secretive
+11: coal
+12: dime
+13: legal
+14: knife
+15: distribution
+16: difficult
+17: spark
+18: somber
+19: hop
+20: cherry
+21: subsequent
+22: snails
+23: stravinsky
+24: glow
+25: vacation
+26: wind
+27: short
+28: nation
+29: holistic
+30: street
+31: weak
+32: weather
+33: accept
+34: things
+35: stale
+36: camp
+37: squirrel
+38: makeshift
+39: prickly
+40: shaggy
+41: lean
+42: whistle
+43: thinkable
+44: overwrought
+45: women
+46: light
+47: shrill
+48: stampede
+49: possess
+50: heartbreaking
+51: chivalrous
+52: business
+53: rule
+54: object
+55: careless
+56: concerned
+57: vein
+58: punishment
+59: store
+60: cover
+61: daffy
+62: sad
+63: foot
+
+Phase <9>
+Number of false negatives:
+0
+Number of false positives:
+76
+Probability of false positives:
+0.76
+False Positive Elements:
+1: impolite
+2: onerous
+3: pig
+4: eggs
+5: challenge
+6: meal
+7: poised
+8: hurry
+9: heal
+10: clean
+11: pollution
+12: gifted
+13: puzzled
+14: cayenne
+15: beg
+16: unkempt
+17: start
+18: sedate
+19: old
+20: announce
+21: sun
+22: labored
+23: bikes
+24: damage
+25: ink
+26: long-term
+27: cautious
+28: refuse
+29: vanish
+30: religion
+31: yam
+32: ignorant
+33: sail
+34: glue
+35: overflow
+36: wry
+37: own
+38: design
+39: cats
+40: school
+41: uppity
+42: scratch
+43: lethal
+44: stereotyped
+45: manage
+46: poison
+47: kindly
+48: brave
+49: bostonian
+50: turkey
+51: holiday
+52: syrup
+53: channel
+54: ghost
+55: monkey
+56: sip
+57: syndicate
+58: clip
+59: cap
+60: ashamed
+61: awake
+62: worry
+63: famous
+64: determined
+65: fish
+66: eight
+67: nut
+68: sterile
+69: recognise
+70: ecco2k
+71: curved
+72: fragile
+73: utopian
+74: writing
+75: adjustment
+76: condition
+
+Phase <10>
+Number of false negatives:
+0
+Number of false positives:
+78
+Probability of false positives:
+0.78
+False Positive Elements:
+1: far-flung
+2: unhealthy
+3: umbrella
+4: cable
+5: chubby
+6: station
+7: one
+8: pikachu
+9: periodic
+10: noxious
+11: pass
+12: charmander
+13: money
+14: numberless
+15: rest
+16: hard
+17: blastoid
+18: yak
+19: worm
+20: judge
+21: mist
+22: knock
+23: obtain
+24: popcorn
+25: delicate
+26: shelter
+27: blind
+28: puffy
+29: phone
+30: hover
+31: shelf
+32: inherent
+33: unnatural
+34: numerous
+35: exotic
+36: loaf
+37: town
+38: giant
+39: nose
+40: gravity
+41: analyze
+42: bit
+43: breathe
+44: odd
+45: signal
+46: waves
+47: hummingbird
+48: unadvised
+49: flanders
+50: destruction
+51: female
+52: useless
+53: bottle
+54: fireman
+55: top
+56: possessive
+57: exclusive
+58: humdrum
+59: trucks
+60: squeak
+61: strange
+62: governor
+63: protective
+64: lie
+65: acidic
+66: various
+67: spandex
+68: courageous
+69: market
+70: debonair
+71: parsimonious
+72: nonstop
+73: scribble
+74: health
+75: sleepy
+76: faithful
+77: heady
+78: cause
+
+Total over 10 phase(s): 
+Number of false negatives:
+0
+Number of false positives:
+341
+Probability of false positives:
+0.341

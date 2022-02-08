@@ -1,0 +1,161 @@
+Experiment for values of:
+p = 0.2
+c = 2
+d = 1
+q = 1009
+Phase <1>
+Number of false negatives:
+0
+Number of false positives:
+0
+Probability of false positives:
+0
+False Positive Elements:
+
+Phase <2>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: nonchalant
+2: lobster
+3: flawless
+
+Phase <3>
+Number of false negatives:
+0
+Number of false positives:
+2
+Probability of false positives:
+0.02
+False Positive Elements:
+1: concentrate
+2: appliance
+
+Phase <4>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: fantastic
+2: daughter
+3: alcoholic
+
+Phase <5>
+Number of false negatives:
+0
+Number of false positives:
+8
+Probability of false positives:
+0.08
+False Positive Elements:
+1: arithmetic
+2: interesting
+3: rambunctious
+4: able
+5: warn
+6: complete
+7: oafish
+8: tranquil
+
+Phase <6>
+Number of false negatives:
+0
+Number of false positives:
+5
+Probability of false positives:
+0.05
+False Positive Elements:
+1: wasteful
+2: parallel
+3: flow
+4: efficient
+5: jellyfish
+
+Phase <7>
+Number of false negatives:
+0
+Number of false positives:
+6
+Probability of false positives:
+0.06
+False Positive Elements:
+1: entertaining
+2: daily
+3: answer
+4: innocent
+5: bored
+6: fang
+
+Phase <8>
+Number of false negatives:
+0
+Number of false positives:
+8
+Probability of false positives:
+0.08
+False Positive Elements:
+1: coal
+2: legal
+3: distribution
+4: short
+5: squirrel
+6: overwrought
+7: heartbreaking
+8: chivalrous
+
+Phase <9>
+Number of false negatives:
+0
+Number of false positives:
+17
+Probability of false positives:
+0.17
+False Positive Elements:
+1: honey
+2: pig
+3: challenge
+4: sedate
+5: announce
+6: labored
+7: ignorant
+8: own
+9: school
+10: lethal
+11: stereotyped
+12: bostonian
+13: syndicate
+14: awake
+15: famous
+16: determined
+17: writing
+
+Phase <10>
+Number of false negatives:
+0
+Number of false positives:
+7
+Probability of false positives:
+0.07
+False Positive Elements:
+1: noxious
+2: gravity
+3: waves
+4: unadvised
+5: destruction
+6: parsimonious
+7: faithful
+
+Total over 10 phase(s): 
+Number of false negatives:
+0
+Number of false positives:
+59
+Probability of false positives:
+0.059

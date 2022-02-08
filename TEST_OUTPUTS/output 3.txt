@@ -1,0 +1,151 @@
+Experiment for values of:
+p = 0.2
+c = 3
+d = 1
+q = 1009
+Phase <1>
+Number of false negatives:
+0
+Number of false positives:
+0
+Probability of false positives:
+0
+False Positive Elements:
+
+Phase <2>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: nonchalant
+2: lobster
+3: flawless
+
+Phase <3>
+Number of false negatives:
+0
+Number of false positives:
+2
+Probability of false positives:
+0.02
+False Positive Elements:
+1: concentrate
+2: appliance
+
+Phase <4>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: fantastic
+2: daughter
+3: alcoholic
+
+Phase <5>
+Number of false negatives:
+0
+Number of false positives:
+8
+Probability of false positives:
+0.08
+False Positive Elements:
+1: arithmetic
+2: interesting
+3: rambunctious
+4: able
+5: warn
+6: complete
+7: oafish
+8: tranquil
+
+Phase <6>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: parallel
+2: efficient
+3: jellyfish
+
+Phase <7>
+Number of false negatives:
+0
+Number of false positives:
+4
+Probability of false positives:
+0.04
+False Positive Elements:
+1: entertaining
+2: daily
+3: answer
+4: innocent
+
+Phase <8>
+Number of false negatives:
+0
+Number of false positives:
+6
+Probability of false positives:
+0.06
+False Positive Elements:
+1: legal
+2: distribution
+3: short
+4: squirrel
+5: heartbreaking
+6: chivalrous
+
+Phase <9>
+Number of false negatives:
+0
+Number of false positives:
+12
+Probability of false positives:
+0.12
+False Positive Elements:
+1: challenge
+2: announce
+3: labored
+4: ignorant
+5: lethal
+6: stereotyped
+7: bostonian
+8: syndicate
+9: awake
+10: famous
+11: determined
+12: writing
+
+Phase <10>
+Number of false negatives:
+0
+Number of false positives:
+8
+Probability of false positives:
+0.08
+False Positive Elements:
+1: cable
+2: noxious
+3: gravity
+4: waves
+5: unadvised
+6: destruction
+7: icy
+8: faithful
+
+Total over 10 phase(s): 
+Number of false negatives:
+0
+Number of false positives:
+49
+Probability of false positives:
+0.049

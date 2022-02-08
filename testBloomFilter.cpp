@@ -34,96 +34,105 @@ int main(int argc, char** argv){
     float p = stof(ins[0]);
     int m = stoi(ins[1]), c = stoi(ins[2]), d = stoi(ins[3]);
     int q = nextPrime(deletes*num_phase);
-    cout << "Experiment for values of:" << endl;
-    cout << "p = " << p << endl;
-    cout << "c = " << c << endl;
-    cout << "d = " << d << endl;
-    cout << "q = " << q << endl;
     
     //Prep files
-    ifstream input_file; 
-    input_file.open(argv[2]);
-    ifstream success;
-    success.open(argv[3]); 
-    ifstream fail;
-    fail.open(argv[4]);
-    ifstream remove;
-    remove.open(argv[5]);
+    ofstream outfile("dat.txt");
 
-    BloomFilter bloom_filter(p, m, c, d);
-    HashTable htable(q);
+    //Customize the value set
+    for(float f = 1; f <= 1; f ++){
+        ifstream input_file; 
+        input_file.open(argv[2]);
+        ifstream success;
+        success.open(argv[3]); 
+        ifstream fail;
+        fail.open(argv[4]);
+        ifstream remove;
+        remove.open(argv[5]);
 
-    int total_false_neg = 0;
-    int total_false_pos = 0;
-    for(int x = 0; x < num_phase; x++){
-        cout << "Phase <" << (x+1) << ">" << endl; 
-    
-        for(int i = 0; i < insertions; i++){
-            string input;
-            input_file >> input;
-            bloom_filter.insert(input);
-        }
+        cout << "Experiment for values of:" << endl;
+        cout << "p = " << p << endl;
+        cout << "c = " << c << endl;
+        cout << "d = " << d << endl;
+        cout << "q = " << q << endl;
 
-        for(int i = 0; i < deletes; i++){
-            string removed;
-            remove >> removed;
-            htable.insert(removed);
-        }
+        //Replace c or d with f.
+        BloomFilter bloom_filter(p, m, c, d);
+        HashTable htable(q);
 
-        int false_neg = 0;
-        for(int i = 0; i < searches; i++){
-            string search;
-            success >> search;
-            if(!bloom_filter.find(search)){
-                false_neg++;
-            }
-        }
-
-        total_false_neg += false_neg;
-
-        string* falsePositives = new string[100];
-        int false_pos = 0;
-        for(int i = 0; i < searches; i++){
-            string search;
-            fail >> search;
-            if(bloom_filter.find(search)){
-                falsePositives[false_pos] = search;
-                false_pos++;
+        int total_false_neg = 0;
+        int total_false_pos = 0;
+        for(int x = 0; x < num_phase; x++){
+            cout << "Phase <" << (x+1) << ">" << endl; 
+        
+            for(int i = 0; i < insertions; i++){
+                string input;
+                input_file >> input;
+                bloom_filter.insert(input);
             }
 
+            for(int i = 0; i < deletes; i++){
+                string removed;
+                remove >> removed;
+                htable.insert(removed);
+            }
+
+            int false_neg = 0;
+            for(int i = 0; i < searches; i++){
+                string search;
+                success >> search;
+                if(!bloom_filter.find(search)){
+                    false_neg++;
+                }
+            }
+
+            total_false_neg += false_neg;
+
+            string* falsePositives = new string[100];
+            int false_pos = 0;
+            for(int i = 0; i < searches; i++){
+                string search;
+                fail >> search;
+                if(bloom_filter.find(search)){
+                    falsePositives[false_pos] = search;
+                    false_pos++;
+                }
+
+            }
+
+            total_false_pos += false_pos;
+
+            cout << "Number of false negatives:" << endl;
+            cout << false_neg << endl;
+            cout << "Number of false positives:" << endl;
+            cout << false_pos << endl;
+            cout << "Probability of false positives:" << endl;
+            cout << setprecision(5) << false_pos / 100.0 << endl;
+            cout << "False Positive Elements:" << endl;
+            for(int i = 0; i < false_pos; i++){
+                cout << i+1 << ": " << falsePositives[i] << endl;
+            }
+
+            cout << endl;
         }
 
-        total_false_pos += false_pos;
+        //Close all ifstreams
+        input_file.close();
+        success.close();
+        fail.close();
+        remove.close();
 
+        //bloom_filter.print();
+
+        cout << "Total over "  << num_phase << " phase(s): " << endl;
         cout << "Number of false negatives:" << endl;
-        cout << false_neg << endl;
+        cout << total_false_neg << endl;
         cout << "Number of false positives:" << endl;
-        cout << false_pos << endl;
+        cout << total_false_pos << endl;
         cout << "Probability of false positives:" << endl;
-        cout << setprecision(5) << false_pos / 100.0 << endl;
-        cout << "False Positive Elements:" << endl;
-        for(int i = 0; i < false_pos; i++){
-            cout << i+1 << ": " << falsePositives[i] << endl;
-        }
+        cout << total_false_pos / 1000.0 << endl;
 
-        cout << endl;
+        outfile << f << " " << total_false_pos / 1000.0 << endl;
+
     }
-
-    //Close all ifstreams
-    input_file.close();
-    success.close();
-    fail.close();
-    remove.close();
-
-    //bloom_filter.print();
-
-    cout << "Total over "  << num_phase << " phase(s): " << endl;
-    cout << "Number of false negatives:" << endl;
-    cout << total_false_neg << endl;
-    cout << "Number of false positives:" << endl;
-    cout << total_false_pos << endl;
-    cout << "Probability of false positives:" << endl;
-    cout << total_false_pos / 1000.0 << endl;
-
     return 0;
 }

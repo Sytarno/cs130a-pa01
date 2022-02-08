@@ -1,0 +1,293 @@
+Experiment for values of:
+p = 0.2
+c = 1
+d = 3
+q = 1009
+Phase <1>
+Number of false negatives:
+0
+Number of false positives:
+0
+Probability of false positives:
+0
+False Positive Elements:
+
+Phase <2>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: nonchalant
+2: lobster
+3: flawless
+
+Phase <3>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: concentrate
+2: longing
+3: appliance
+
+Phase <4>
+Number of false negatives:
+0
+Number of false positives:
+4
+Probability of false positives:
+0.04
+False Positive Elements:
+1: fantastic
+2: daughter
+3: alcoholic
+4: cheap
+
+Phase <5>
+Number of false negatives:
+0
+Number of false positives:
+15
+Probability of false positives:
+0.15
+False Positive Elements:
+1: arithmetic
+2: rate
+3: interesting
+4: rose
+5: illegal
+6: bermuda
+7: rambunctious
+8: mixed
+9: able
+10: warn
+11: complete
+12: oafish
+13: tranquil
+14: depth
+15: perform
+
+Phase <6>
+Number of false negatives:
+0
+Number of false positives:
+13
+Probability of false positives:
+0.13
+False Positive Elements:
+1: parallel
+2: poor
+3: reaction
+4: sisters
+5: efficient
+6: jellyfish
+7: trick
+8: sticky
+9: escape
+10: walrus
+11: ticket
+12: wall
+13: silver
+
+Phase <7>
+Number of false negatives:
+0
+Number of false positives:
+18
+Probability of false positives:
+0.18
+False Positive Elements:
+1: carry
+2: entertaining
+3: grin
+4: daily
+5: answer
+6: fairies
+7: misty
+8: reflect
+9: shiver
+10: extra-small
+11: grey
+12: belong
+13: innocent
+14: plant
+15: kick
+16: immense
+17: treat
+18: blue-eyed
+
+Phase <8>
+Number of false negatives:
+0
+Number of false positives:
+26
+Probability of false positives:
+0.26
+False Positive Elements:
+1: evasive
+2: unique
+3: attraction
+4: gaze
+5: fertile
+6: dime
+7: legal
+8: distribution
+9: difficult
+10: spark
+11: somber
+12: subsequent
+13: snails
+14: short
+15: holistic
+16: things
+17: camp
+18: squirrel
+19: makeshift
+20: shrill
+21: general
+22: heartbreaking
+23: chivalrous
+24: mix
+25: activity
+26: careless
+
+Phase <9>
+Number of false negatives:
+0
+Number of false positives:
+56
+Probability of false positives:
+0.56
+False Positive Elements:
+1: impolite
+2: pig
+3: eggs
+4: challenge
+5: meal
+6: heal
+7: puzzled
+8: beg
+9: unkempt
+10: nerve
+11: start
+12: sedate
+13: announce
+14: sun
+15: labored
+16: damage
+17: snobbish
+18: cautious
+19: refuse
+20: vanish
+21: ignorant
+22: glue
+23: overflow
+24: wry
+25: own
+26: design
+27: school
+28: scratch
+29: lethal
+30: stereotyped
+31: manage
+32: poison
+33: preach
+34: bostonian
+35: turkey
+36: holiday
+37: channel
+38: ghost
+39: physical
+40: syndicate
+41: clip
+42: cap
+43: awake
+44: famous
+45: practice
+46: pumped
+47: determined
+48: fish
+49: eight
+50: recognise
+51: ecco2k
+52: curved
+53: fragile
+54: writing
+55: adjustment
+56: condition
+
+Phase <10>
+Number of false negatives:
+0
+Number of false positives:
+53
+Probability of false positives:
+0.53
+False Positive Elements:
+1: far-flung
+2: unhealthy
+3: umbrella
+4: cable
+5: one
+6: pikachu
+7: periodic
+8: noxious
+9: money
+10: rest
+11: hard
+12: blastoid
+13: worm
+14: judge
+15: mist
+16: knock
+17: obtain
+18: popcorn
+19: delicate
+20: shelter
+21: phone
+22: numerous
+23: exotic
+24: loaf
+25: town
+26: gravity
+27: bit
+28: odd
+29: signal
+30: waves
+31: hummingbird
+32: unadvised
+33: destruction
+34: useless
+35: bottle
+36: fireman
+37: seashore
+38: exclusive
+39: humdrum
+40: trucks
+41: squeak
+42: strange
+43: lie
+44: spandex
+45: courageous
+46: market
+47: debonair
+48: acrid
+49: health
+50: sleepy
+51: faithful
+52: heady
+53: cause
+
+Total over 10 phase(s): 
+Number of false negatives:
+0
+Number of false positives:
+191
+Probability of false positives:
+0.191

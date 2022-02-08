@@ -7,7 +7,7 @@ BINARIES=testBloomFilter
 all: ${BINARIES}
 
 tests: ${BINARIES}
-	./PA1.out setup.txt input.txt successfulSearch.txt failedSearch.txt remove.txt > out.txt
+	./PA1.out setup.txt input.txt successfulSearch.txt failedSearch.txt remove.txt
 
 clean: 
 	/bin/rm -f ${BINARIES} *.o PA1.out

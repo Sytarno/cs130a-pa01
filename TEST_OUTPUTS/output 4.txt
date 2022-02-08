@@ -1,0 +1,222 @@
+Experiment for values of:
+p = 0.2
+c = 1
+d = 2
+q = 1009
+Phase <1>
+Number of false negatives:
+0
+Number of false positives:
+0
+Probability of false positives:
+0
+False Positive Elements:
+
+Phase <2>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: nonchalant
+2: lobster
+3: flawless
+
+Phase <3>
+Number of false negatives:
+0
+Number of false positives:
+3
+Probability of false positives:
+0.03
+False Positive Elements:
+1: imperfect
+2: concentrate
+3: appliance
+
+Phase <4>
+Number of false negatives:
+0
+Number of false positives:
+4
+Probability of false positives:
+0.04
+False Positive Elements:
+1: arm
+2: fantastic
+3: daughter
+4: alcoholic
+
+Phase <5>
+Number of false negatives:
+0
+Number of false positives:
+10
+Probability of false positives:
+0.1
+False Positive Elements:
+1: arithmetic
+2: interesting
+3: rose
+4: bermuda
+5: rambunctious
+6: able
+7: warn
+8: complete
+9: oafish
+10: tranquil
+
+Phase <6>
+Number of false negatives:
+0
+Number of false positives:
+10
+Probability of false positives:
+0.1
+False Positive Elements:
+1: wasteful
+2: parallel
+3: reaction
+4: obsequious
+5: reject
+6: valuable
+7: efficient
+8: jellyfish
+9: escape
+10: silver
+
+Phase <7>
+Number of false negatives:
+0
+Number of false positives:
+9
+Probability of false positives:
+0.09
+False Positive Elements:
+1: entertaining
+2: grin
+3: daily
+4: answer
+5: scene
+6: grey
+7: innocent
+8: tail
+9: kick
+
+Phase <8>
+Number of false negatives:
+0
+Number of false positives:
+17
+Probability of false positives:
+0.17
+False Positive Elements:
+1: dime
+2: relax
+3: legal
+4: distribution
+5: somber
+6: short
+7: holistic
+8: things
+9: camp
+10: squirrel
+11: makeshift
+12: silly
+13: women
+14: general
+15: heartbreaking
+16: chivalrous
+17: careless
+
+Phase <9>
+Number of false negatives:
+0
+Number of false positives:
+39
+Probability of false positives:
+0.39
+False Positive Elements:
+1: impolite
+2: unlock
+3: pig
+4: challenge
+5: meal
+6: puzzled
+7: nerve
+8: start
+9: sedate
+10: old
+11: announce
+12: sun
+13: labored
+14: damage
+15: refuse
+16: ignorant
+17: wry
+18: own
+19: cats
+20: lethal
+21: six
+22: stereotyped
+23: poison
+24: preach
+25: bostonian
+26: drink
+27: channel
+28: ghost
+29: physical
+30: syndicate
+31: cap
+32: awake
+33: famous
+34: determined
+35: fish
+36: ecco2k
+37: curved
+38: writing
+39: adjustment
+
+Phase <10>
+Number of false negatives:
+0
+Number of false positives:
+25
+Probability of false positives:
+0.25
+False Positive Elements:
+1: one
+2: pikachu
+3: noxious
+4: numberless
+5: hard
+6: blastoid
+7: judge
+8: popcorn
+9: delicate
+10: exotic
+11: town
+12: gravity
+13: bit
+14: waves
+15: unadvised
+16: destruction
+17: bottle
+18: exclusive
+19: humdrum
+20: squeak
+21: lie
+22: spandex
+23: semaphore
+24: health
+25: faithful
+
+Total over 10 phase(s): 
+Number of false negatives:
+0
+Number of false positives:
+120
+Probability of false positives:
+0.12

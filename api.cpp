@@ -7,7 +7,7 @@
 #include <cmath>
 #include <iostream>
 
-int bloomFilterSize(float p, int m, int c){
+int bloomFilterSize(float p, int m, float c){
     int n = ceil(-((m * log(p)) / pow(log(2), 2)));
     return n*c;
 }
